@@ -33,11 +33,8 @@ def drawDiamond(height):
 	############################################################################
 	spaces = int(height/2)
 	for i in range(0, int(height/2)):
-=======
-	spaces = height/2
 
 	for i in range(0, height/2):
->>>>>>> 889c752faab4d9b3682f37be41ce09afe3b4abe6
 		
 		for j in range(0, int(spaces)):
 			sys.stdout.write(" ")
@@ -47,7 +44,6 @@ def drawDiamond(height):
 		print("\n")
 
 
-<<<<<<< HEAD
 
 	spaces = 0
 
@@ -55,8 +51,7 @@ def drawDiamond(height):
 	# END CODE HERE					                                           #
 	############################################################################
 
-=======
->>>>>>> 889c752faab4d9b3682f37be41ce09afe3b4abe6
+
 print("----------------------------Shape Printer----------------------------")
 while True:
 	resp = 0
