@@ -1,0 +1,200 @@
+----------------------------Shape Printer----------------------------
+Which shape do you want to draw?
+[1] - Square
+[2] - Rectangle
+[3] - Right Triangle
+[4] - Diamond
+[5] - X-Square
+[6] - Clockwise Spiral
+[7] - Counter-Clockwise Spiral
+[8] - Zigzag
+[9] - Exit
+Response: 1
+Enter side length: 3
+
+***
+***
+***
+
+
+Which shape do you want to draw?
+[1] - Square
+[2] - Rectangle
+[3] - Right Triangle
+[4] - Diamond
+[5] - X-Square
+[6] - Clockwise Spiral
+[7] - Counter-Clockwise Spiral
+[8] - Zigzag
+[9] - Exit
+Response: 2
+Enter length: 4
+Enter width: 5
+
+*****
+*****
+*****
+*****
+
+
+Which shape do you want to draw?
+[1] - Square
+[2] - Rectangle
+[3] - Right Triangle
+[4] - Diamond
+[5] - X-Square
+[6] - Clockwise Spiral
+[7] - Counter-Clockwise Spiral
+[8] - Zigzag
+[9] - Exit
+Response: 3
+Enter height: 7
+
+*
+**
+***
+****
+*****
+******
+*******
+
+Which shape do you want to draw?
+[1] - Square
+[2] - Rectangle
+[3] - Right Triangle
+[4] - Diamond
+[5] - X-Square
+[6] - Clockwise Spiral
+[7] - Counter-Clockwise Spiral
+[8] - Zigzag
+[9] - Exit
+Response: 4
+Enter height: 11
+
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+ *********
+  *******
+   *****
+    ***
+     *
+
+Which shape do you want to draw?
+[1] - Square
+[2] - Rectangle
+[3] - Right Triangle
+[4] - Diamond
+[5] - X-Square
+[6] - Clockwise Spiral
+[7] - Counter-Clockwise Spiral
+[8] - Zigzag
+[9] - Exit
+Response: 5
+Enter side length: 12
+
+************
+**        **
+* *      * *
+*  *    *  *
+*   *  *   *
+*    **    *
+*    **    *
+*   *  *   *
+*  *    *  *
+* *      * *
+**        **
+************
+
+Which shape do you want to draw?
+[1] - Square
+[2] - Rectangle
+[3] - Right Triangle
+[4] - Diamond
+[5] - X-Square
+[6] - Clockwise Spiral
+[7] - Counter-Clockwise Spiral
+[8] - Zigzag
+[9] - Exit
+Response: 6
+Enter side length: 12
+
+************
+           *
+********** *
+*        * *
+* ****** * *
+* *    * * *
+* * ** * * *
+* * **** * *
+* *      * *
+* ******** *
+*          *
+************
+
+Which shape do you want to draw?
+[1] - Square
+[2] - Rectangle
+[3] - Right Triangle
+[4] - Diamond
+[5] - X-Square
+[6] - Clockwise Spiral
+[7] - Counter-Clockwise Spiral
+[8] - Zigzag
+[9] - Exit
+Response: 7
+Enter side length: 12
+
+* **********
+* *        *
+* * ****** *
+* * *    * *
+* * * ** * *
+* * * ** * *
+* * *  * * *
+* * **** * *
+* *      * *
+* ******** *
+*          *
+************
+
+Which shape do you want to draw?
+[1] - Square
+[2] - Rectangle
+[3] - Right Triangle
+[4] - Diamond
+[5] - X-Square
+[6] - Clockwise Spiral
+[7] - Counter-Clockwise Spiral
+[8] - Zigzag
+[9] - Exit
+Response: 8
+Enter length: 3
+Enter oscillations: 5
+
+*
+ *
+  *
+ *
+*
+ *
+  *
+ *
+*
+ *
+  *
+
+Which shape do you want to draw?
+[1] - Square
+[2] - Rectangle
+[3] - Right Triangle
+[4] - Diamond
+[5] - X-Square
+[6] - Clockwise Spiral
+[7] - Counter-Clockwise Spiral
+[8] - Zigzag
+[9] - Exit
+Response: 9
