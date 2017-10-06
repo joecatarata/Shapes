@@ -38,6 +38,19 @@ def drawDiamond(height):
 	# END CODE HERE					                                           #
 	############################################################################
 
+
+def drawXSquare(length):
+
+	shape = "*"
+	spaces = 0
+	for i in range(int(length/2)):
+		if i == 0 or i == int(length/2 - 1):
+			print(shape*length)
+		else 
+			print()
+		
+
+
 print("----------------------------Shape Printer----------------------------")
 while True:
 	resp = 0
@@ -47,7 +60,8 @@ while True:
 		print("[2] - Rectangle")
 		print("[3] - Right Triangle")
 		print("[4] - Diamond")
-		print("[5] - Exit")
+		print("[5] - X-Square")
+		print("[9] - Exit")
 		try:
 			resp = int(input("Response: "))
 			if resp >= 1 and resp <= 5:
@@ -71,4 +85,7 @@ while True:
 		height = int(input("Enter height: "))
 		drawDiamond(height)
 	elif resp == 5:
+		length = int(input("Enter length: "))
+		drawXSquare(length)
+	elif resp == 9:
 		break
