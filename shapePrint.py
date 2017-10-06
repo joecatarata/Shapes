@@ -1,13 +1,10 @@
 import sys
 
 def drawSquare(side):
-	############################################################################
-	# TODO: Implement this code segment                                        #
-	############################################################################
-	pass
-	############################################################################
-	# END CODE HERE					                                           #
-	############################################################################
+	for i in range(0, side):
+		for x in range(0, side):
+			sys.stdout.write('* ')
+		print ('')
 
 def drawRectangle(length,width):
 
@@ -15,7 +12,6 @@ def drawRectangle(length,width):
 		for y in range(0,width):
 			sys.stdout.write("*")
 		print("")
-
 
 def drawRightTriangle(height):
 	############################################################################
@@ -32,7 +28,6 @@ def drawDiamond(height):
 	for i in range(0, height/2):
 		
 		for j in range(0, height):
-
 
 print("----------------------------Shape Printer----------------------------")
 while True:
