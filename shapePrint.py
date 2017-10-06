@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  def drawSquare(side):
 	############################################################################
 	# TODO: Implement this code segment                                        #
@@ -15,25 +16,76 @@ def drawRectangle(length,width):
 	############################################################################
 	# END CODE HERE					                                           #
 	############################################################################	
+=======
+import sys
+
+def drawSquare(side):
+	for i in range(0, side):
+		for x in range(0, side):
+			sys.stdout.write('* ')
+		print ('')
+
+def drawRectangle(length,width):
+
+	for i in range(0,length):
+		for y in range(0,width):
+			sys.stdout.write("*")
+		print("")
+>>>>>>> develop
 
 def drawRightTriangle(height):
 	############################################################################
 	# TODO: Implement this code segment                                        #
 	############################################################################
+<<<<<<< HEAD
 	pass
+=======
+        shape = '*'
+
+        for i in range(height):
+            print(shape * (i+1))
+        
+>>>>>>> develop
 	############################################################################
 	# END CODE HERE					                                           #
 	############################################################################
 
 def drawDiamond(height):
+<<<<<<< HEAD
 	############################################################################
 	# TODO: Implement this code segment                                        #
 	############################################################################
 	pass
+=======
+<<<<<<< HEAD
+	############################################################################
+	# TODO: Implement this code segment                                        #
+	############################################################################
+	spaces = int(height/2)
+	for i in range(0, int(height/2)):
+
+	for i in range(0, height/2):
+		
+		for j in range(0, int(spaces)):
+			sys.stdout.write(" ")
+
+		for j in range(0, int(spaces-i)):
+			sys.stdout.write("*")
+		print("\n")
+
+
+
+	spaces = 0
+
+>>>>>>> develop
 	############################################################################
 	# END CODE HERE					                                           #
 	############################################################################
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> develop
 print("----------------------------Shape Printer----------------------------")
 while True:
 	resp = 0
