@@ -1,3 +1,5 @@
+import sys
+
 def drawSquare(side):
 	############################################################################
 	# TODO: Implement this code segment                                        #
@@ -29,13 +31,19 @@ def drawDiamond(height):
 	############################################################################
 	# TODO: Implement this code segment                                        #
 	############################################################################
-	spaces = height/2
-
-	for i in range(0, height/2):
+	spaces = int(height/2)
+	for i in range(0, int(height/2)):
 		
-		for j in range(0, height):
+		for j in range(0, int(spaces)):
+			sys.stdout.write(" ")
+
+		for j in range(0, int(spaces-i)):
+			sys.stdout.write("*")
+		print("\n")
 
 
+
+	spaces = 0
 
 	############################################################################
 	# END CODE HERE					                                           #
