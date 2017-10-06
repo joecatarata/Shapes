@@ -66,3 +66,5 @@ while True:
 		drawDiamond(height)
 	elif resp == 5:
 		break
+
+	print("bading si joe")
